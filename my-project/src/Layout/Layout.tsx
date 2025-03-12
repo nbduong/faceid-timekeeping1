@@ -112,14 +112,14 @@ export default function Layout() {
         </button>
       </nav>
       <div className="w-[87.5%]">
-        <div className="w-full flex justify-end items-center h-[140px] border-b-[1px] border-black">
+        <div className="w-full flex justify-end items-center h-[100px] border-b-[1px] border-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="size-14 mr-6"
+            className="size-10 mr-6"
           >
             <path
               stroke-linecap="round"
@@ -131,7 +131,7 @@ export default function Layout() {
           <img
             src="./avatar.png"
             alt="avatar"
-            className="w-[90px] h-[90px] border-1 rounded-full mr-6"
+            className="w-[60px] h-[60px] border-1 rounded-full mr-6"
           />
         </div>
         <div>
