@@ -30,7 +30,7 @@ export default function Layout() {
         </div>
 
         <div className="mt-4">
-          <a href="/manageaccount">
+          <Link to="/manageaccount">
             <button className="hover:font-bold ml-6 p-3 flex font-semibold text-gray-800 opacity-50 hover:opacity-100 transition-opacity duration-300 bg-transparent hover:bg-blue-200 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +48,10 @@ export default function Layout() {
               </svg>
               Quản lý tài khoản
             </button>
-          </a>
+          </Link>
         </div>
         <div className="mt-4">
-          <a href="/managetimekeeping">
+          <Link to="/managetimekeeping">
             <button className=" hover:font-bold ml-6 p-3 flex font-semibold text-gray-800 opacity-50 hover:opacity-100 transition-opacity duration-300 bg-transparent hover:bg-blue-200 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,10 +69,10 @@ export default function Layout() {
               </svg>
               Quản lý chấm công
             </button>
-          </a>
+          </Link>
         </div>
         <div className="mt-4">
-          <a href="/calendar">
+          <Link to="/calendar">
             <button className="hover:font-bold ml-6 p-3 flex font-semibold text-gray-800 opacity-50 hover:opacity-100 transition-opacity duration-300 bg-transparent hover:bg-blue-200 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ export default function Layout() {
               </svg>
               Lịch làm việc
             </button>
-          </a>
+          </Link>
         </div>
 
         <button className="mt-6 font-bold flex ml-5 bg-black text-white border-2 border-black px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white hover:text-black">

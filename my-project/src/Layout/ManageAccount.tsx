@@ -6,12 +6,12 @@ export default function ManageAccount() {
   const [showCamera, setShowCamera] = useState(false);
 
   return (
-    <div className="bg-[url(/background-white.jpg)] ">
+    <div className="bg-[url(/background-white.jpg)] bg-cover">
       <motion.div
         className="flex flex-col p-20"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
       >
         <span className="opacity-[50%]">Tổng quan</span>
         <p className="text-[30px] font-semibold">Tài khoản cá nhân</p>
@@ -20,7 +20,7 @@ export default function ManageAccount() {
             className="w-[300px] bg-[#E7E8EA] shadow-2xl rounded-lg flex flex-col items-center py-10"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.2 }}
           >
             <img
               src="./avatar.png"
@@ -56,7 +56,7 @@ export default function ManageAccount() {
             className="w-[672px] flex gap-6 p-6 flex-wrap bg-[#E7E8EA] shadow-2xl ml-10 rounded-lg"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.5 }}
           >
             {/* Thông tin cá nhân */}
             <div>
